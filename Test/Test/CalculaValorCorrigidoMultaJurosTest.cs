@@ -9,7 +9,7 @@ public class CalculaValorCorrigidoMultaJurosTest
     {
         //Arrange
         var diasEmAtraso = (DateTime.Now - DateTime.Now).Days;
-        var valorOriginal = (decimal)10.0; 
+        var valorOriginal = 10; 
 
         //Act
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
@@ -25,7 +25,7 @@ public class CalculaValorCorrigidoMultaJurosTest
     {
         //Arrange
         var diasEmAtraso = (DateTime.Now - DateTime.Now.AddDays(2)).Days;
-        var valorOriginal = (decimal)10.0; 
+        var valorOriginal = 10; 
 
         //Act
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
@@ -41,7 +41,7 @@ public class CalculaValorCorrigidoMultaJurosTest
     {
         //Arrange
         var diasEmAtraso = (DateTime.Now - DateTime.Now.AddDays(-3)).Days;
-        var valorOriginal = (decimal)10.0; 
+        var valorOriginal = 10; 
 
         //Act
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
@@ -49,7 +49,7 @@ public class CalculaValorCorrigidoMultaJurosTest
         
 
         //Assert
-        Assert.Equal((decimal)10.21, total, 2);
+        Assert.Equal(10.21m, total, 2);
     }
        
     [Fact]
@@ -57,7 +57,7 @@ public class CalculaValorCorrigidoMultaJurosTest
     {
         //Arrange
         var diasEmAtraso = (DateTime.Now - DateTime.Now.AddDays(-4)).Days;
-        var valorOriginal = (decimal)10.0; 
+        var valorOriginal = 10m; 
 
         //Act
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
@@ -65,7 +65,7 @@ public class CalculaValorCorrigidoMultaJurosTest
         
 
         //Assert
-        Assert.Equal((decimal)10.21, total, 2);
+        Assert.Equal(10.21m, total, 2);
     }
     
     [Fact]
@@ -73,7 +73,7 @@ public class CalculaValorCorrigidoMultaJurosTest
     {
         //Arrange
         var diasEmAtraso = (DateTime.Now - DateTime.Now.AddDays(-6)).Days;
-        var valorOriginal = (decimal)10.0; 
+        var valorOriginal = 10; 
 
         //Act
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
@@ -81,7 +81,7 @@ public class CalculaValorCorrigidoMultaJurosTest
         
 
         //Assert
-        Assert.Equal((decimal)10.32, total, 2);
+        Assert.Equal(10.32m, total, 2);
     }
     
     [Fact]
@@ -89,7 +89,7 @@ public class CalculaValorCorrigidoMultaJurosTest
     {
         //Arrange
         var diasEmAtraso = (DateTime.Now - DateTime.Now.AddDays(-12)).Days;
-        var valorOriginal = (decimal)10.0; 
+        var valorOriginal = 10; 
 
         //Act
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
@@ -97,6 +97,6 @@ public class CalculaValorCorrigidoMultaJurosTest
         
 
         //Assert
-        Assert.Equal((decimal)10.53, total, 2);
+        Assert.Equal(10.53m, total, 2);
     }
 }

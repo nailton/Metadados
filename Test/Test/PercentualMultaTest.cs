@@ -40,7 +40,7 @@ public class PercentualMultaTest
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
 
         //Assert
-        Assert.Equal((decimal)0.02, regraMultaJuros.Multa, 2);
+        Assert.Equal(0.02m, regraMultaJuros.Multa, 2);
     }
 
     [Fact]
@@ -53,7 +53,7 @@ public class PercentualMultaTest
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
 
         //Assert
-        Assert.Equal((decimal)0.03, regraMultaJuros.Multa, 2);
+        Assert.Equal(0.03m, regraMultaJuros.Multa, 2);
     }
 
     [Fact]
@@ -66,6 +66,6 @@ public class PercentualMultaTest
         var regraMultaJuros = PercentualMultaJuros.ObterRegra(diasEmAtraso);
 
         //Assert
-        Assert.Equal((decimal)0.05, regraMultaJuros.Multa, 2);
+        Assert.Equal(0.05m, regraMultaJuros.Multa, 2);
     }
 }

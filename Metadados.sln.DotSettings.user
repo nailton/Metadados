@@ -1,20 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=72e8bbb2_002Df0ec_002D4874_002D9ec2_002D224edaca5886/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Conta_pagamento_criada_banco" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=afa463d3_002D2f71_002D47e6_002Db711_002Dee51c3cb9522/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PercentualMultaTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.ContaPagamentoCriada.Conta_pagamento_criada_banco&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e4adcb8f_002D8655_002D4a2f_002Da119_002D15c3fef08aa9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsLocked="True" Name="CamposObrigatoriosTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.PercentualMultaTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.PercentualJurosTest&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.CalculaValorCorrigidoMultaJurosTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.CamposObrigatoriosTest.Nome_Obrigatorio&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.ContasControllerTests.Incluir_NomeVazio_DeveRetornarBadRequest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.ContasControllerTests&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f93872fa_002Dff6e_002D4458_002D8538_002D15cdde2b1b1f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Conta_pagamento_criada_banco #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.ContaDuplicadaTest.Incluir_Conta_Duplicada_BadRequest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.ContaDuplicadaTest.Incluir_Conta_Duplicada_Mensagem&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
