@@ -1,5 +1,4 @@
 using Metadados.Models;
-using Microsoft.AspNetCore.Mvc;
 
 namespace Metadados.Services;
 

@@ -1,7 +1,6 @@
 using System.Net;
 using System.Text;
 using Metadados.Models;
-using Metadados.Services;
 using Metadados.Utils;
 using Newtonsoft.Json;
 

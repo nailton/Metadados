@@ -1,11 +1,6 @@
-using System.Globalization;
 using Metadados.Data;
 using Metadados.Models;
 using Metadados.Utils;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
 
 namespace Metadados.Services;
 
@@ -32,6 +27,7 @@ public class ContaService : IContaService
         {
             throw new ApplicationException("Data de vencimento da conta é obrigatória.");
         }
+        
         // Verificação de conta duplicada por data de pagamento
 
         var contaExistente =

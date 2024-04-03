@@ -1,9 +1,7 @@
-using Metadados.Data;
 using Metadados.Exceptions;
 using Metadados.Models;
 using Metadados.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Metadados.Controller;
 
@@ -31,7 +29,7 @@ public class ContasController : ControllerBase
     {
         try
         {
-             _contaService.Incluir(conta);
+            _contaService.Incluir(conta);
 
             return CreatedAtAction(nameof(PostConta), new { id = conta.Id }, conta);
         }
@@ -40,9 +38,4 @@ public class ContasController : ControllerBase
             return BadRequest(new ErrorDetails(400, ex.Message));
         }
     }
-
-    // private bool ContaExists(Guid id)
-    // {
-    //     return _contaService.C.Any(e => e.Id == id);
-    // }
 }

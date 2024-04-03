@@ -46,16 +46,6 @@ public sealed class Conta
         Juros = juros;
     }
 
-    public void AtualizaNome(string nome)
-    {
-        Nome = nome;
-    }
-
-    public void AtualizaValorOriginal(decimal valor)
-    {
-        ValorOriginal = valor;
-    }
-
     public void AtualizaValorCorrigido(decimal valor)
     {
         ValorCorrigido = valor;

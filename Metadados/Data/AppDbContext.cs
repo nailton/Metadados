@@ -1,5 +1,4 @@
 using Metadados.Models;
-using Metadados.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Metadados.Data;
