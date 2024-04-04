@@ -4,5 +4,7 @@
     &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.PercentualMultaTest&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.PercentualJurosTest&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.CalculaValorCorrigidoMultaJurosTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.ContaDuplicadaTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::0363D3CD-033E-4D58-838A-5058E38DF17E::net8.0::Test.ContaPagamentoCriadaTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
